@@ -1,0 +1,15 @@
+  614  cd git-drill-1
+  615  git init
+  616  touch readme.md index.html style.css
+  617  git remote add origin https://github.com/brandonhenning/gitdrills.git
+  618  git add index.html
+  619  git status
+  620  git commit -m "first commit"
+  621  ls
+  622  git add --all
+  623  git reset
+  624  touch app.js
+  625  git add --all
+  626  git commit -m "yoda has much to teach you"
+  627  git push -u origin master
+  628  history | tail -n 15 > my-commands
